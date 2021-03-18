@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+div {
+  display: inline-block;
+  float: left;
+  width: calc(100vw / 3 - 2vw);
+  height: 550px;
+}
+
+body {
+  margin: 5px;
+  padding: 5px;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-family: "Sigmar One", cursive;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+li {
+  font-family: Georgia;
+}
+
+#header {
+  float: none;
+  padding-bottom: 150px;
+}
+
+#ingredients {
+  background-color: red;
+}
+
+#list1 {
+  font-family: Arial;
+  display: none;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment {
+  background-color: white;
+}
+
+#list2 {
+  display: none;
+}
+
+#equipment li:nth-child(5) {
+  color: green;
+}
+
+#equipment li:nth-child(6) {
+  color: green;
+}
+
+#directions {
+  background-color: green;
+  width: 35%;
+}
+
+#list3 {
+  display: none;
+}
+
+#source {
+  padding: 50px;
+  clear: both;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#notes {
+  border-style: solid;
+  width: 100%;
+}
+
+img {
+  max-height: 500px;
+  max-width: 100%;
+  display: inline;
+  left: 25px;
+}
+
+@media (orientation: portrait) {
+  div {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    background-color: lightblue;
+  }
+}
